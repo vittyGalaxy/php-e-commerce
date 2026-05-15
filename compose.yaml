@@ -1,0 +1,8 @@
+services:
+  php:
+    build: .
+    container_name: carrel_site
+    ports:
+      - "8085:80"
+    volumes:
+      - ./src:/var/www/html
