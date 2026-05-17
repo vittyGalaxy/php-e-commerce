@@ -1,0 +1,1 @@
+INSERT INTO Product(name, price) VALUES ("Computer", 399.99), ("book", 10.50)

@@ -1,7 +1,7 @@
 services:
   php:
     build: .
-    container_name: carrel_site
+    container_name: e_commerce_carrel_site
     ports:
       - "8085:80"
     volumes:
